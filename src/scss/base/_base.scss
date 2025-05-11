@@ -1,0 +1,21 @@
+/* ===================================
+   Box-sizing: включає padding і border у ширину/висоту
+=================================== */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	height: 100vh;
+	font-style: normal;
+	font-weight: 400;
+	font-family: sans-serif;
+	background: #fff;
+	color: #000;
+}
+
+button {
+	cursor: pointer;
+}
